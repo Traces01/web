@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+header {
+  background-color: rgb(71, 159, 179);
+  min-height: 90px;
+}
+
+header h1 {
+  color: rgb(249, 251, 253);
+  padding: 10px 60px;
+  font-size: 70px;
+}
+header ul {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+header li {
+  display: inline;
+  margin-right: 15px;
+}
+
+header a {
+  color: rgb(249, 251, 253);
+  text-decoration: none;
+  margin: 10px 10px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main .first {
+  font-size: 35px;
+  display: block;
+  text-align: center;
+  color: aliceblue;
+  min-height: 50px;
+  background-color: rgb(74, 177, 177);
+  border: 3px solid;
+  border-color: rgb(52, 75, 249);
+}
+
+main .section1 {
+  color: rgb(17, 13, 90);
+
+  font-size: 60px;
+  min-height: 700px;
+
+  background-image: url("01.jpg"),
+    linear-gradient(to top, rgba(242, 241, 241, 0.964), rgba(1, 4, 1, 0));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+main .section2 {
+  font-size: 20px;
+  color: rgb(50, 151, 151);
+  padding: 60px 20px 20px 20px;
+}
+
+.image0 {
+  width: 700px;
+  position: absolute;
+  top: 1120px;
+  left: 650px;
+}
+
+.unicorn {
+  padding: 5px;
+  border: 3px solid;
+  margin: 150px 0 10px 0;
+}
+
+.image1 {
+  width: 390px;
+  position: absolute;
+  left: 745px;
+  top: 1670px;
+}
+.image2 {
+  width: 375px;
+  position: absolute;
+  left: 1100px;
+  top: 1665px;
+}
+
+.distory {
+  padding: 5px;
+  border: 3px solid;
+}
+
+.image3 {
+  width: 370px;
+  position: absolute;
+  left: 745px;
+  top: 2400px;
+}
+.image4 {
+  width: 370px;
+  position: absolute;
+  left: 1100px;
+  top: 2400px;
+}
+
+.full {
+  padding: 5px;
+  border: 3px solid;
+}
+
+.image5 {
+  width: 370px;
+  position: absolute;
+  left: 745px;
+  top: 3180px;
+}
+.image6 {
+  width: 370px;
+  position: absolute;
+  left: 1100px;
+  top: 3180px;
+}
+
+main .section3 {
+  font-size: 20px;
+  color: rgb(50, 151, 151);
+  padding: 60px 20px 100px 20px;
+}
+
+.image7 {
+  width: 600px;
+  position: absolute;
+  left: 850px;
+  top: 4300px;
+}
+
+main .section4 {
+  font-size: 20px;
+  color: rgb(50, 151, 151);
+  padding: 60px 20px 100px 20px;
+}
+
+.driver {
+  padding: 5px;
+  border: 3px solid;
+}
+
+main .section5 {
+  font-size: 20px;
+  color: rgb(50, 151, 151);
+  padding: 60px 20px 100px 20px;
+}
+
+.ep01,
+.ep02,
+.ep03,
+.ep04,
+.ep05,
+.ep06,
+.ep07 {
+  padding: 5px;
+  border: 3px solid;
+  margin: 10px;
+}
+
+.image8,
+.image9,
+.image10,
+.image11,
+.image12,
+.image13,
+.image14 {
+  width: 700px;
+}
+
+.back {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.back a {
+  text-decoration: none;
+  color: rgb(49, 181, 201);
+}
+
+.back a:hover {
+  text-decoration: underline;
+}
+
+.last {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(49, 181, 201);
+  color: aliceblue;
+  padding: 30px;
+}
